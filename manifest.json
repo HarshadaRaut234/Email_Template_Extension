@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Email Templates Manager",
+    "version": "1.0",
+    "description": "An extension to save and quickly insert customizable email templates.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "mailicon16.png",
+        "48": "mailicon48.png"
+      }
+    },
+    "icons": {
+      "16": "mailicon16.png",
+      "48": "mailicon48.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://mail.google.com/*",
+      "https://outlook.live.com/*"
+    ]
+  }
+  

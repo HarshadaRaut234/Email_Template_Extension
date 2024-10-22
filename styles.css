@@ -1,0 +1,74 @@
+/* General styles for the popup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFD1DC;
+    width: 300px; /* Set a fixed width for the popup */
+}
+
+/* Title style */
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Container for the template selection */
+.template-container {
+    margin-bottom: 20px;
+}
+
+/* Individual template button style */
+.template-button {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: rgb(3, 252, 19);
+    text-align: center;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.template-button:hover {
+    background-color: #2200ff; /* Darker shade of primary color */
+}
+
+/* Style for customizable fields */
+.custom-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for save button */
+.save-button {
+    padding: 10px;
+    background-color: #77DD77; /* Bootstrap success color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for save button */
+.save-button:hover {
+    background-color: #218838; /* Darker shade of success color */
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
